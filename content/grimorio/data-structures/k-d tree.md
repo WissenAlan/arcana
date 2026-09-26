@@ -26,13 +26,13 @@ Es la evolución natural del [[binary-search-tree]]
 - Propiedad: Si los datos de entrada estan ordenados, no siempre uno de los hijos va a ser menor/igual al padre, ignorando así, el principio fundamental de ordenamiento.
 
 ### Representación
-  ![[arcana/public/attachments/grimorio/data-structures/kd-tree/kd-tree.svg|678]]
+
+![](/attachments/grimorio/data-structures/kd-tree.svg)
 
 Estructura resultante después de realizar las divisiones. Los puntos quedan organizados en distintos niveles (Nivel 0, Nivel 1, Nivel 2) según las particiones realizadas, usando K=2.
 
 ---
-
-![[arcana/public/attachments/grimorio/data-structures/kd-tree/plano-kd-tree.svg|700]]
+![](/attachments/grimorio/data-structures/kd-tree-plano.svg)
 Distribución inicial de los puntos en el plano X-Y . Es decir, muestra dónde están ubicados los datos antes de aplicar las divisiones por niveles.
 
 ## 2. Operaciones y complejidad
